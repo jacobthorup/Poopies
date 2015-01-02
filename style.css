@@ -1,0 +1,138 @@
+.base-stuff{
+
+  width:500px;
+
+  margin: 0px auto;
+
+  background-color:pink;
+
+  padding: 10px;
+
+  border-radius: 10px;
+
+  position:relative;
+
+}
+
+#info{
+
+  font-size:13px;
+
+  width:100px;
+
+  margin:-120px 0px 0px 300px;
+
+  background-color:orange;
+
+  border-radius:5px;
+
+  padding:5px;
+
+  box-shadow: 5px 5px 5px;
+
+  transition: 1s;
+
+}
+
+.pic-2{
+
+  margin:0;
+
+}
+
+
+#info:hover {
+
+  transform:1s;
+
+  margin-top:-5px;
+
+  background-color:
+  white;
+
+}
+
+
+
+.custom-button{
+
+  width:50px;
+
+  box-shadow: 5px 5px 15px black;
+
+  color:white;
+
+  border: 1px green;
+
+  border-width: 2px;
+
+  border-style: solid;
+
+  padding: 10px 50px 10px 50px;
+
+  margin: 0px auto;
+
+  margin-top: 15px;
+
+  background-color: red;
+
+  border-radius: 5px;
+
+  transition: 1s;
+
+}
+
+#spin-button:hover{
+
+  transition:1s;
+
+  -webkit-transform: translate(10px) scale(.9)
+
+
+
+}
+
+
+
+.custom-button:hover{
+
+  background-color: blue;
+
+}
+
+#puppies{
+
+  opacity: 0;
+
+  border-radius: 5px;
+
+  box-shadow: 5px 5px 5px;
+
+  transition: 1s;
+
+  z-index:5;
+
+
+
+  -webkit-transform: rotate(0deg) scale(2);
+
+}
+
+#jake{
+
+  position:absolute;
+
+  bottom:-15;
+
+
+}
+
+
+.small{
+
+  width:100;
+
+  border-radius:5px;
+
+
+}
